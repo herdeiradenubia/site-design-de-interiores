@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Montserrat:wght@200&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #000;
+    background-image: url(./assets/20240213_152353.jpg);
+    background-size: 100%;
+    
+}
+.cabecalho{
+    background-color: #884A39;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 80px;   
+}
+.logo{
+    margin-top: -2%;
+}
+.titulo__index{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -7%;
+}
+.subtitulo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin-top: -2%;
+    color: #F9E0BB;
+}
+.menu{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #FFC26F;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+.menu:hover{
+    color: #F9E0BB;
+}
+.conteudo{
+    background-color: #C38154;
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8%;
+    margin-left: 20%;
+    opacity: 0.8;
+    align-items: center;
+    padding-top: 2%;
+}
+.titulo__c{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+.texto{
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #F9E0BB;
+}
+.botoes{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 90%;
+    width: 100%;    
+}
+.botao{
+    border-radius: 50%;
+}
+.botao:hover{
+    background-color: #C38154;
+    border-radius: 40px;
+}
+footer{
+    background-color: #884A39;
+    height: 150px;
+    width: 99%;
+    color: #FFC26F;
+    text-align: center;
+    margin-top: 10%;
+    bottom: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+}
+.titulo__about{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.texto__about{
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #F9E0BB;
+}
+.titulo__contato{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+.texto__contato{
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1rem;
+    color: #F9E0BB;
+    text-align: center;    
+}
+.subtitulo__contato{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;    
+}
+.back-to-top {
+    cursor: pointer;
+   
+    position: fixed;
+    left: 3rem;
+    bottom: 1rem;
+   
+    line-height: 0;
+   
+    visibility: hidden;
+    opacity: 0;
+   
+    transition: 0.3s;
+    transform: translateY(100%);
+   }
+   
+   .back-to-top.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+   }
+
